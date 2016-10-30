@@ -89,9 +89,7 @@ main h1, h2 {
 }
 
 #shareimg1{
-	display: inline;
-	float: right;
-	overflow: hidden;
+	font-family: 'Ubuntu', sans-serif;
 }
 #shareimgs {
 	width: 17px;
