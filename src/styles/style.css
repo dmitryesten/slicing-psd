@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: 'Playfair Display', sans-serif; 
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url('#') no-repeat 50% 0 #FFF;
+	padding: 70px 0;
+	
+	
+}
+.wrapper, main{
+	width: 1063px;
+	margin: 0 auto;	
+}
+header{
+	height: 80px;
+}
+header h1{
+	float: left;
+	padding: 0;
+	margin-top: 20px;
+}
+nav{
+	float: right;
+	clear: right;
+	padding: 0px;
+	margin-top: 30px;
+}
+nav li {
+	float: right;
+	margin-left: 100px;
+}
+#image1{
+	width: 1063px;
+	height:  674px;
+	margin-bottom: 98px;
+}
+			/*Каркас облости текс*/
+main {
+	height: 3520px;
+}
+.container{
+	width: 1063px;
+	
+}
+.textspace{
+	width: 725px;
+	display: inline-block;
+}
+p3 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #ADADAD;
+}
+main h1, h2 {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-size: 20pt;
+	color: #626262;
+}
+#image2, #image3, #image4{
+	width: 725px;
+	height: 460px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#image3, #image4{
+	margin-top: 0px;
+}
+
+#em-text{
+	margin-left: 15px;
+}
+
+.share-icons {
+	width: 725px;
+	
+}
+
+#shareimg1{
+	display: inline;
+	float: right;
+	overflow: hidden;
+}
+#shareimgs {
+	width: 17px;
+	height: 17px;
+	margin-top: 24px;
+	margin-left: 14px;
+	float: right;
+	
+}
+			
+			/*Каркас sidebar*/
+										
+.additional{
+	width: 300px;
+	float: right;
+	
+}
+
+#sidebarimage1{
+	width: 270px;
+	height: 177px;
+	margin-bottom: 40px;
+	float: right;
+}
+
+.about-me {
+	width: 280px;
+	margin-left: 25px;
+	float: left;
+	
+}
+.about-me h3{
+	color: #626262;
+	font-size: 16pt;
+}
+#about-text{
+	color: #626262;
+	font-size: 10pt;
+	margin-top: 10px;
+	float: none;
+}
+#linkimg1{
+	margin-left: 0px;
+}
+#linkimgs {
+	width: 17px;
+	height: 17px;
+	margin-top: 24px;
+	margin-left: 14px;
+}
+
+
