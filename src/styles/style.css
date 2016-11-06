@@ -8,64 +8,78 @@
 html{
 	font-family: 'Playfair Display', sans-serif; 
 }
-ul{
-	list-style: none;
-}
-a{
-	text-decoration: none;
-}
+
+
 body{
 	background: url('#') no-repeat 50% 0 #FFF;
 	padding: 70px 0;
-	
-	
+	height: 100%;
+	position:relative; 
+ 	min-height:100%;
+	alink:"#626262";
+	link: #626262;
 }
-.wrapper, main{
+main{
+	padding-bottom: 100px;
+}
+
+a {
+	text-decoration: none;
+	color:  #B4AD9E;
+}
+
+.wrapper, .article{
 	width: 1063px;
 	margin: 0 auto;	
 }
-header{
+.style-text-ubuntu{
+	font-family: url('https://fonts.googleapis.com/css?family=Ubuntu');
+}
+.header{
 	height: 80px;
 }
-header h1{
+.header__logo{
 	float: left;
 	padding: 0;
 	margin-top: 20px;
 }
-nav{
+.nav{
 	float: right;
 	clear: right;
 	padding: 0px;
 	margin-top: 30px;
 }
-nav li {
+.nav__ul{
+	list-style: none;
+}
+.nav__link{
 	float: right;
 	margin-left: 100px;
+	
 }
-#image1{
-	width: 1063px;
-	height:  674px;
+.article__image1{
 	margin-bottom: 98px;
 }
 			/*Каркас облости текс*/
-main {
-	height: 3520px;
+
+.text-style-h{
+	color: #626262;
 }
+
 .container{
 	width: 1063px;
+	margin-top: 98px;
 	
 }
 .textspace{
 	width: 725px;
 	display: inline-block;
 }
-p3 {
-	font-family: 'Ubuntu', sans-serif;
-	color: #ADADAD;
-}
-main h1, h2 {
+
+.stextspace_hThePerfect {
 	padding-top: 15px;
 	padding-bottom: 20px;
+	text-indent: 20em;
 	font-size: 20pt;
 	color: #626262;
 }
@@ -102,28 +116,26 @@ main h1, h2 {
 			
 			/*Каркас sidebar*/
 										
-.additional{
+.sidebar{
 	width: 300px;
 	float: right;
-	
+	clear: right;
 }
 
-#sidebarimage1{
-	width: 270px;
-	height: 177px;
+#sidebar__image1{
 	margin-bottom: 40px;
 	float: right;
 }
 
 .about-me {
-	width: 280px;
-	margin-left: 25px;
-	float: left;
+	width: 300px;
+	margin-left:8px;
 	
 }
-.about-me h3{
+.about-me__texthead{
 	color: #626262;
 	font-size: 16pt;
+	font-family: 'Playfair Display', sans-serif;
 }
 #about-text{
 	color: #626262;
@@ -131,14 +143,97 @@ main h1, h2 {
 	margin-top: 10px;
 	float: none;
 }
-#linkimg1{
-	margin-left: 0px;
+
+.sherebar-article {
+	margin-top: 40px;
+	float: right;
 }
-#linkimgs {
-	width: 17px;
-	height: 17px;
-	margin-top: 24px;
-	margin-left: 14px;
+#share-text{
+	color: #626262;
+	font-family: 'Ubuntu';
 }
+
+.topposts-sidebar{
+	margin-top: 75px;
+	margin-left: 30px;
+}
+.topposts-sidebar__div_h {
+	margin-bottom: 38px;
+}
+.topposts-sidebar__h {
+	color: #B4AD9E;
+}
+
+.list-sidebar{
+	color: #B4AD9E;
+}
+.list-sidebar__li {
+	color: #626262;
+	margin-bottom: 20px;
+}
+.list-sidebar__comments {
+	font-size: 12pt;
+	font-family: 'Ubuntu';
+	color:#B8B2A4;
+}
+.ident-comments-list {
+	margin-bottom: 30px;
+}
+.list-sidebar__comments {
+	margin-bottom: 20px;
+}
+
+/*Каркас BANER*/
+
+.baner {
+	width: 250px;
+	height: 250px;
+	margin-top: 80px;
+}
+
+
+/*Каркас FOOTER*/
+
+.footer {
+	height: 95px;
+	
+	 position: absolute;
+ 	 bottom: 0;
+	 width: 100%;
+	 background: #D9D9D9;
+}
+
+.footer-full-side {
+	height: 95px;
+	width: 1063px;
+	margin: auto;
+	position: relative;
+	
+}
+.footer-left-side {
+	width: 530px;
+	float: left;
+	color: black;
+}
+.footer-right-side {
+	width: 533px;
+	float: right;
+}
+.left-link-footer {
+	margin-top: 40px;
+}
+.left-link-footer__link {
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 10px;
+}
+
+#share-text-footer{
+margin-right: 20px;	
+}
+.left-link-footer__link-footer{
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 25px;
+}
+
 
 
