@@ -1,0 +1,21 @@
+{
+  "name": "dmitry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "testc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitryesten/slicing-psd.git"
+  },
+  "author": "dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitryesten/slicing-psd/issues"
+  },
+  "homepage": "https://github.com/dmitryesten/slicing-psd#readme"
+}
